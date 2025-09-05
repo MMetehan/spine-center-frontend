@@ -258,6 +258,6 @@ export const submitContactForm = async (data) => {
 
 // Appointment form
 export const submitAppointment = async (data) => {
-    const response = await api.post('/appointments', data);
+    const response = await api.post('/appointment', data);
     return response.data;
 };
